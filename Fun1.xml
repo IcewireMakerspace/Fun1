@@ -71,8 +71,26 @@
                                       </block>
                                     </value>
                                     <statement name="DO0">
-                                      <block type="oled_drawtext" id="159">
-                                        <field name="TEXT">MOVE!!!</field>
+                                      <block type="oled_cleardisplay" id="160">
+                                        <next>
+                                          <block type="oled_setcursor" id="162" inline="true">
+                                            <value name="STARTX">
+                                              <block type="math_number" id="163">
+                                                <field name="NUM">0</field>
+                                              </block>
+                                            </value>
+                                            <value name="STARTY">
+                                              <block type="math_number" id="164">
+                                                <field name="NUM">0</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="oled_drawtext" id="159">
+                                                <field name="TEXT">MOVE!!!</field>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
                                       </block>
                                     </statement>
                                   </block>
