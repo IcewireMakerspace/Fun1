@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="29">
-            <field name="TEXT">Hello</field>
+            <field name="TEXT">Hello, I am a Jade robot.</field>
           </block>
         </next>
       </block>
