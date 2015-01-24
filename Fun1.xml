@@ -29,7 +29,26 @@
                 </value>
                 <next>
                   <block type="oled_drawtext" id="70">
-                    <field name="TEXT">robot.Your wish is my command.</field>
+                    <field name="TEXT">robot.Your wish is my</field>
+                    <next>
+                      <block type="oled_setcursor" id="71" inline="true">
+                        <value name="STARTX">
+                          <block type="math_number" id="72">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="math_number" id="73">
+                            <field name="NUM">20</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_drawtext" id="74">
+                            <field name="TEXT">command.</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
