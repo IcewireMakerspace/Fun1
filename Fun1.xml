@@ -45,6 +45,40 @@
                         <next>
                           <block type="oled_drawtext" id="74">
                             <field name="TEXT">command.</field>
+                            <next>
+                              <block type="controls_whileUntil" id="97" inline="false">
+                                <field name="MODE">WHILE</field>
+                                <value name="NUMBER">
+                                  <block type="math_number" id="104">
+                                    <field name="NUM">1</field>
+                                  </block>
+                                </value>
+                                <statement name="DO">
+                                  <block type="controls_if" id="111" inline="false">
+                                    <value name="IF0">
+                                      <block type="logic_compare" id="125" inline="true">
+                                        <field name="OP">LT</field>
+                                        <value name="A">
+                                          <block type="sensor_object" id="134">
+                                            <field name="OBJECT">RIGHTFRONT</field>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <block type="math_number" id="127">
+                                            <field name="NUM">60</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <statement name="DO0">
+                                      <block type="oled_drawtext" id="159">
+                                        <field name="TEXT">MOVE!!!</field>
+                                      </block>
+                                    </statement>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
                           </block>
                         </next>
                       </block>
