@@ -89,6 +89,9 @@
                                                 <next>
                                                   <block type="oled_drawtext" id="159">
                                                     <field name="TEXT">MOVE!!!</field>
+                                                    <next>
+                                                      <block type="movement_stop" id="292"></block>
+                                                    </next>
                                                   </block>
                                                 </next>
                                               </block>
@@ -129,6 +132,9 @@
                                                     <next>
                                                       <block type="oled_drawtext" id="182">
                                                         <field name="TEXT">MOVE!!!</field>
+                                                        <next>
+                                                          <block type="movement_stop" id="293"></block>
+                                                        </next>
                                                       </block>
                                                     </next>
                                                   </block>
@@ -169,6 +175,9 @@
                                                         <next>
                                                           <block type="oled_drawtext" id="194">
                                                             <field name="TEXT">MOVE!!!</field>
+                                                            <next>
+                                                              <block type="movement_stop" id="294"></block>
+                                                            </next>
                                                           </block>
                                                         </next>
                                                       </block>
@@ -209,6 +218,9 @@
                                                             <next>
                                                               <block type="oled_drawtext" id="203">
                                                                 <field name="TEXT">MOVE!!!</field>
+                                                                <next>
+                                                                  <block type="movement_stop" id="295"></block>
+                                                                </next>
                                                               </block>
                                                             </next>
                                                           </block>
@@ -249,6 +261,9 @@
                                                                 <next>
                                                                   <block type="oled_drawtext" id="215">
                                                                     <field name="TEXT">MOVE!!!</field>
+                                                                    <next>
+                                                                      <block type="movement_stop" id="296"></block>
+                                                                    </next>
                                                                   </block>
                                                                 </next>
                                                               </block>
