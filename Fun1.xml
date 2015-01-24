@@ -297,6 +297,11 @@
                                                 <field name="NUM">2000</field>
                                               </block>
                                             </value>
+                                            <next>
+                                              <block type="oled_drawtext" id="398">
+                                                <field name="TEXT"></field>
+                                              </block>
+                                            </next>
                                           </block>
                                         </next>
                                       </block>
