@@ -29,7 +29,7 @@
                 </value>
                 <next>
                   <block type="oled_drawtext" id="70">
-                    <field name="TEXT">robot</field>
+                    <field name="TEXT">robot.Your wish is my command.</field>
                   </block>
                 </next>
               </block>
