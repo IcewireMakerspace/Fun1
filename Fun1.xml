@@ -14,7 +14,26 @@
         </value>
         <next>
           <block type="oled_drawtext" id="29">
-            <field name="TEXT">Hello, I am a Jade robot.</field>
+            <field name="TEXT">Hello, I am a Jade</field>
+            <next>
+              <block type="oled_setcursor" id="55" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="56">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="57">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="70">
+                    <field name="TEXT">robot</field>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
